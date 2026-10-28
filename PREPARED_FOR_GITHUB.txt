@@ -1,0 +1,9 @@
+Prepared from the uploaded ZIP.
+
+Primary firmware: src/main.cpp
+Primary desktop app: MiniCubeSatGroundStation/ground_station.py (selected from ground_station_v2_final_ui.py)
+Older distinct versions: archive/legacy-versions/
+Excluded generated items: .pio build output, Python .venv, __pycache__, local CSV logs, machine-specific VS Code files.
+Credential change: the original AP password was replaced with the example value CubeSat123; set your own demo password before running; firmware no longer prints the password to Serial.
+
+No Git repository was initialized and nothing was uploaded to GitHub.

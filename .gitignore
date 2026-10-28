@@ -1,0 +1,24 @@
+# PlatformIO generated files
+.pio/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local telemetry output (do not commit real logs by default)
+MiniCubeSatGroundStation/logs/
+*.csv
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
