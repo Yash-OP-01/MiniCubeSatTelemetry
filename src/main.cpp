@@ -452,6 +452,29 @@ const char dashboard[] PROGMEM = R"HTML(
   --shadow: 0 4px 18px rgba(15, 23, 42, .06);
 }
 
+/* DARK THEME — colour variables */
+:root[data-theme="dark"] {
+  --bg: #0b1220;
+  --surface: #151f31;
+  --surface-soft: #1c2a40;
+
+  --blue: #78a9ff;
+  --blue-dark: #2563eb;
+  --blue-light: #233b61;
+
+  --text: #edf4ff;
+  --muted: #a5b5ce;
+  --border: #2b3b53;
+
+  --green: #55d6a0;
+  --green-bg: #16382f;
+
+  --red: #ff8f86;
+  --red-bg: #422624;
+
+  --shadow: 0 4px 18px rgba(0, 0, 0, .16);
+}
+  
 :root[data-theme="dark"] .hero {
   background: linear-gradient(115deg, #102b59, #1746a2 68%, #2563a8);
 }
